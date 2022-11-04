@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace resist\Cleaner\Tests;
+namespace resist\Slugger\Tests;
 
 use resist\Slugger\Slugger;
 use PHPUnit\Framework\TestCase;
