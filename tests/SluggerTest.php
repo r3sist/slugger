@@ -21,7 +21,7 @@ final class SluggerTest extends TestCase
     /**
      * @return array[] string, allowed, replacement, toLowercase, expected
      */
-    public function getSlugTestCases(): array
+    public static function getSlugTestCases(): array
     {
         return [
             ['valid string', '', '-', true, 'valid-string'],
